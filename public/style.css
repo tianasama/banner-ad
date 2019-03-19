@@ -9,10 +9,11 @@ a#myAdLink {
 }
 
 #myAd {
-width: 650px;
-height: 200px;
-position: relative;
-overflow: hidden;
+  width: 650px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
 }
 
 #myAd .myAd_img {
@@ -24,6 +25,7 @@ overflow: hidden;
 #myAd #myAd_clouds {
   width: inherit;
   height: inherit;
+  background-repeat: repeat;
   top: 0px;
   left: 0px;
 
