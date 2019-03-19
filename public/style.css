@@ -90,7 +90,7 @@ a#myAdLink {
 
 #myAd #myAd_txt1 span {
   display:inline-block;
-  
+  position: relative;
 }
 
 
