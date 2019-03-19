@@ -1,6 +1,21 @@
 /* styles */
 /* called by your view template */
 
+
+a#myAdLink {
+  display:inline-block;
+  background: #2480d6;
+}
+
+#myAd {
+width: 650px;
+height: 200px;
+position: relative;
+overflow: hidden;
+}
+
+
+
 * {
   box-sizing: border-box;
 }
