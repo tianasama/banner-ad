@@ -1,6 +1,7 @@
 /* styles */
 /* called by your view template */
 
+/*For Lynda tutorial*/
 
 a#myAdLink {
   display:inline-block;
@@ -13,6 +14,76 @@ height: 200px;
 position: relative;
 overflow: hidden;
 }
+
+#myAd .myAd_img {
+  position: absolute;
+  background: url(https://cdn.glitch.com/bede2513-fd7f-4099-b1bf-49fa300d98fe%2Fgraphics.png?1553009583015) no-repeat 0px 0px;
+}
+
+
+#myAd #myAd_clouds {
+  width: inherit;
+  height: inherit;
+  top: 0px;
+  left: 0px;
+
+}
+
+#myAd #myAd_photo{
+  width:inherit;
+  height:143px;
+  background-position: 0px -325px;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+#myAd #myAd_txt1,
+#myAd #myAd_txt2 {
+  position:absolute;
+  width:inherit;
+  text-align:center;
+  color:white;
+  font-size:3em;
+  top: 0px;
+  left:0px;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 3px rgba(0,0,102,0.5)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
